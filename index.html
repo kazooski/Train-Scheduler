@@ -22,7 +22,7 @@
     <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-database.js"></script>
     <!-- The core Firebase JS SDK is always required and must be listed first -->
-    <script src="https://www.gstatic.com/firebasejs/7.14.5/firebase-app.js"></script>
+    <!-- <script src="https://www.gstatic.com/firebasejs/7.14.5/firebase-app.js"></script> -->
 
 
     <!-- Moment.js Reference -->
@@ -43,7 +43,7 @@
 
     <div class = "container">
         <h2>Current Train Schedule</h2>
-        <table class="table table-striped table-dark">
+        <table class="table table-striped">
             <thead>
               <tr>
                 <th scope="col">Train Name</th>
@@ -53,22 +53,22 @@
                 <th scope="col">Minutes Away</th>
               </tr>
             </thead>
-            <tbody>
+            <tbody id="train-list">
               <tr>
-                <th scope="row">Core</th>
+                <td scope="row">Core</th>
                 <td>Central NEO LA</td>
                 <td>15</td>
                 <td>Arts District</td>
                 <td></td>
               </tr>
               <tr>
-                <th scope="row">Colorado</th>
+                <td scope="row">Colorado</th>
                 <td>Futuredena</td>
                 <td></td>
                 <td></td>
               </tr>
               <tr>
-                <th scope="row">Chavez</th>
+                <td scope="row">Chavez</th>
                 <td>Royal Heights</td>
                 <td></td>
                 <td></td>
