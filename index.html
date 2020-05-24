@@ -11,7 +11,10 @@
     <!-- Bootstrap CDN-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
+    
+    <!-- Bootstrap CDN-->
+    <link rel="stylesheet" href="assets/custom.css">
+    
     <!-- Firebase References -->
     <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-database.js"></script>
@@ -22,7 +25,61 @@
 </head>
 <body>
 
-    
+    <div class="container-fluid">
+
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+              <h1 class="display-4">Neo LA Train</h1>
+              <p class="lead">The fastest way to travel in LA</p>
+            </div>
+          </div>        
+    </div>
+
+    <div class = "container">
+        <table class="table table-striped table-dark">
+            <caption style = "caption-side: top">Current Train Schedule</caption>
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">First</th>
+                <th scope="col">Last</th>
+                <th scope="col">Handle</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Larry</td>
+                <td>the Bird</td>
+                <td>@twitter</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <form>
+            <caption style="caption-side: top">Add Train</caption>
+            <div class="form-group">
+              <label for="formGroupExampleInput">Example label</label>
+              <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input placeholder">
+            </div>
+            <div class="form-group">
+              <label for="formGroupExampleInput2">Another label</label>
+              <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input placeholder">
+            </div>
+          </form>            
+    </div>
 
     <script src="assets/script.js"></script>
 </body>
