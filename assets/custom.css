@@ -1,9 +1,41 @@
 /* customizing bootstrap colors and features */
 
+/* font-family: 'Montserrat', sans-serif; */
+
 body {
     background-color: #bfc1ab;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.jumbotron {
+    background-color: #40707a;
+    color: #bfc1ab;
 }
 
 .display-4 {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
 }
+
+.table-striped>tbody>tr:nth-child(odd)>td, 
+.table-striped>tbody>tr:nth-child(odd)>th {
+   background-color: #93b3a6;
+   border: 0px; 
+ }
+
+ tr {
+     border-color: #93b3a6;
+     border: 0px;
+ }
+
+ h2 {
+    padding: 8px;
+    color: #bfc1ab;
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
+    text-align: left;
+    background-color: #616255;
+
+ }
+
